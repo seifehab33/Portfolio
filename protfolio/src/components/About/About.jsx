@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
-import aboutimg from "../../assets/profile.jpg";
+import aboutimg from "../../assets/Profile.jpeg";
 import Info from "./Info";
+import CV from "../../assets/CV.pdf";
 function About() {
   return (
     <section className="about section" id="about">
@@ -16,7 +17,7 @@ function About() {
             and can develop fully fledged platforms (with databases, servers and
             clients) which don't need other applications to function
           </p>
-          <a download="" className="button button--flex" href="">
+          <a download="CV" className="button button--flex" href={CV}>
             Download CV{" "}
             <svg
               class="button__icon"

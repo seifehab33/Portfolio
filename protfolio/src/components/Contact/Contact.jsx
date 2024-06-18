@@ -58,20 +58,34 @@ function Contact() {
             <div className="contact_card">
               <BsWhatsapp className="contact_card-icon" />
               <h3 className="contact_card-title">WhatsApp</h3>
-              <span className="contact_card-data">01554268666</span>
-              <a href="mailto:sefehab189@gmail.com" className="contact_button">
-                Write me{" "}
-                <BsFillArrowRightCircleFill className="contact_button-icon" />
-              </a>
+              <span className="contact_card-data">01500041681</span>
+              <div>
+                <a
+                  href="https://wa.me/01500041681"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact_button"
+                >
+                  Write me{" "}
+                  <BsFillArrowRightCircleFill className="contact_button-icon" />
+                </a>
+              </div>
             </div>
             <div className="contact_card">
               <BsMessenger className="contact_card-icon" />
               <h3 className="contact_card-title">Messenger</h3>
               <span className="contact_card-data">SeifEhab</span>
-              <a href="mailto:sefehab189@gmail.com" className="contact_button">
-                Write me{" "}
-                <BsFillArrowRightCircleFill className="contact_button-icon" />
-              </a>
+              <div>
+                <a
+                  href="https://m.me/sef.man.16"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact_button"
+                >
+                  Write me{" "}
+                  <BsFillArrowRightCircleFill className="contact_button-icon" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

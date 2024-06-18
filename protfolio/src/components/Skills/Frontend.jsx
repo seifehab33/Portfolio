@@ -28,6 +28,13 @@ function Frontend() {
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>
+            <div className="skills_data">
+              <HiCheckBadge />
+              <div>
+                <h3 className="skills_name">Tailwind CSS</h3>
+                <span className="skills_level">Intermediate</span>
+              </div>
+            </div>
           </div>
           <div className="skills_group">
             <div className="skills_data">
@@ -47,7 +54,14 @@ function Frontend() {
             <div className="skills_data">
               <HiCheckBadge />
               <div>
-                <h3 className="skills_name">React</h3>
+                <h3 className="skills_name">React.js</h3>
+                <span className="skills_level">Intermediate</span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <HiCheckBadge />
+              <div>
+                <h3 className="skills_name">Redux Toolkit</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>

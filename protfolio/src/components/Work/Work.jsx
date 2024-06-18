@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../../assets/Work-1.png";
+import Img1 from "../../assets/Work-1 (2).png";
 import Img2 from "../../assets/Work-2.png";
 import Img3 from "../../assets/Work-3.png";
 import Img4 from "../../assets/Work-4.png";
@@ -16,7 +16,7 @@ function Work() {
           <img src={Img1} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/Digital-Trend-Marketing">
+              <a href="https://github.com/seifehab33/entryeagle">
                 Check My GitHub
               </a>
             </button>
