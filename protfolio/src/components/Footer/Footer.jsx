@@ -23,17 +23,18 @@ function Footer() {
           </li>
         </ul>
         <div className="footer_social">
-          <a href="#" target="_blank" className="footer_social-link">
-            <i class="uil uil-facebook"></i>
-          </a>
           <a
-            href="#https://github.com/"
+            href="#facebook"
+            rel="noopener noreferrer"
             target="_blank"
             className="footer_social-link"
           >
+            <i class="uil uil-facebook"></i>
+          </a>
+          <a href="#instgram" target="_blank" className="footer_social-link">
             <i class="uil uil-instagram-alt"></i>
           </a>
-          <a href="#" target="_blank" className="footer_social-link">
+          <a href="#twitter" target="_blank" className="footer_social-link">
             <i class="uil uil-twitter-alt"></i>
           </a>
         </div>
