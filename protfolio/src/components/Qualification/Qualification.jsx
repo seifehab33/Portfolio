@@ -3,9 +3,7 @@ import "./Qualification.css";
 import { useState } from "react";
 function Qualification() {
   const [toggle, setToggle] = useState(1);
-  const toggletab = (index) => {
-    setToggle(index);
-  };
+
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
