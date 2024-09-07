@@ -1,10 +1,10 @@
 import React from "react";
-import Img1 from "../../assets/Work-1 (2).png";
-import Img2 from "../../assets/Work-2.png";
-import Img3 from "../../assets/Work-3.png";
-import Img4 from "../../assets/Work-4.png";
-import Img5 from "../../assets/Work-5.png";
-import Img6 from "../../assets/Work-6.png";
+import Img1 from "../../assets/entryeagleg.png";
+import Img2 from "../../assets/ebookstore.png";
+import Img3 from "../../assets/coronavirus.png";
+import Img4 from "../../assets/moviehub.png";
+import Img5 from "../../assets/weatherApp.png";
+import Img6 from "../../assets/gymstation.png";
 import "./Work.css";
 function Work() {
   return (
@@ -26,7 +26,7 @@ function Work() {
           <img src={Img2} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/E-commerence-website">
+              <a href="https://github.com/seifehab33/E-Book.git">
                 Check My GitHub
               </a>
             </button>
@@ -56,7 +56,7 @@ function Work() {
           <img src={Img5} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/Weather-Website">
+              <a href="https://github.com/seifehab33/Weather-App.git">
                 Check My GitHub
               </a>
             </button>

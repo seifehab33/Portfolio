@@ -33,8 +33,11 @@
   font-size: var(--tiny-font-size);
 }
 .about_desc {
-  padding: 0 4rem 0 0;
-  margin-bottom: var(--mb-2-5);
+  text-align: left; /* Aligns text to the left */
+  /* Increases line height for readability */
+  line-height: 1.6;
+  max-width: 100%;
+  margin: 10px; /* Limits the width of the text block */
 }
 @media screen and (max-width: 992px) {
   .about__container {

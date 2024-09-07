@@ -147,7 +147,7 @@ function Qualification() {
                   The Egyptian Stock Exchange
                 </span>
                 <div className="qualification_calender">
-                  <i class="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i class="uil uil-calendar-alt"></i> 2023 - 2024
                 </div>
               </div>
             </div>
@@ -175,7 +175,7 @@ function Qualification() {
                 <h3 className="qualification_title">Software Development</h3>
                 <span className="qualification_subtitle">The Egyptian Air</span>
                 <div className="qualification_calender">
-                  <i class="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i class="uil uil-calendar-alt"></i> 2023 - 2024
                 </div>
               </div>
             </div>

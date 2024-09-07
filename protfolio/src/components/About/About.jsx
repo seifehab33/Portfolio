@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import aboutimg from "../../assets/Profile.jpeg";
 import Info from "./Info";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/Seif_Ehab_CV.pdf";
 function About() {
   return (
     <section className="about section" id="about">
@@ -13,9 +13,13 @@ function About() {
         <div className="about_data">
           <Info />
           <p className="about_desc">
-            FullStack Developer, I create Web pages with UI / UX user interface
-            and can develop fully fledged platforms (with databases, servers and
-            clients) which don't need other applications to function
+            FullStack Developer specializing in React.js, with expertise in
+            creating dynamic websites and comprehensive platforms that integrate
+            databases, servers, and clients seamlessly. I focus on leveraging
+            modern front-end technologies to deliver high-performance, scalable
+            applications with an emphasis on exceptional user experiences.
+            Passionate about innovation, I am dedicated to providing top-notch
+            software solutions.
           </p>
           <a download="CV" className="button button--flex" href={CV}>
             Download CV{" "}

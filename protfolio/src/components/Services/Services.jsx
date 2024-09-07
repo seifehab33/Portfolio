@@ -40,8 +40,8 @@ function Services() {
               ></i>
               <h3 className="services_modal-title">Full Stack Developer</h3>
               <p className="services_modal-desc">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Service with 1 years of experience.Providing quality work to
+                clients and companies.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
@@ -102,8 +102,8 @@ function Services() {
               ></i>
               <h3 className="services_modal-title">Developing Servers</h3>
               <p className="services_modal-desc">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Service with 1 years of experience.Providing quality work to
+                clients and companies.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
@@ -166,8 +166,8 @@ function Services() {
               ></i>
               <h3 className="services_modal-title">Visual Designer</h3>
               <p className="services_modal-desc">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Service with 1 years of experience.Providing quality work to
+                clients and companies.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
