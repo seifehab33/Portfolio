@@ -2,7 +2,7 @@ import React from "react";
 import Img1 from "../../assets/entryeagleg.png";
 import Img2 from "../../assets/ebookstore.png";
 import Img3 from "../../assets/coronavirus.png";
-import Img4 from "../../assets/moviehub.png";
+import Img4 from "../../assets/e-learning-platf.png";
 import Img5 from "../../assets/weatherApp.png";
 import Img6 from "../../assets/gymstation.png";
 import "./Work.css";
@@ -66,7 +66,7 @@ function Work() {
           <img src={Img6} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/Gym-Station">
+              <a href="https://github.com/seifehab33/E-Learning-Platform">
                 Check My GitHub
               </a>
             </button>
