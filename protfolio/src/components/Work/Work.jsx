@@ -1,10 +1,10 @@
 import React from "react";
 import Img1 from "../../assets/entryeagleg.png";
 import Img2 from "../../assets/ebookstore.png";
-import Img3 from "../../assets/coronavirus.png";
+import Img3 from "../../assets/moviehub.png";
 import Img4 from "../../assets/e-learning-platf.png";
 import Img5 from "../../assets/weatherApp.png";
-import Img6 from "../../assets/gymstation.png";
+import Img6 from "../../assets/task-manager.png";
 import "./Work.css";
 function Work() {
   return (
@@ -36,7 +36,7 @@ function Work() {
           <img src={Img3} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/-Webiste-Covid-19-">
+              <a href="https://github.com/seifehab33/Movie-hub">
                 Check My GitHub
               </a>
             </button>
@@ -46,7 +46,7 @@ function Work() {
           <img src={Img4} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/Movie-hub">
+              <a href="https://github.com/seifehab33/E-Learning-Platform">
                 Check My GitHub
               </a>
             </button>
@@ -66,7 +66,7 @@ function Work() {
           <img src={Img6} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/E-Learning-Platform">
+              <a href="https://github.com/seifehab33/task-manager">
                 Check My GitHub
               </a>
             </button>
