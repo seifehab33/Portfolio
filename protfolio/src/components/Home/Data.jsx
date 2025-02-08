@@ -56,9 +56,9 @@ function Data() {
             ></path>
           </svg>
         </h1>
-        <h3 className="home_subtitle">Frontend Developer</h3>
+        <h3 className="home_subtitle">Full-Stack Developer</h3>
         <p className="home_desc">
-          I'm Frontend Developer based in Egypt , and I'm very passionate and
+          I'm Full-Stack Developer based in Egypt , and I'm very passionate and
           dedicated to my work.
         </p>
         <a href="#contact" className="button button--flex">

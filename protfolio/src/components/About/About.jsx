@@ -13,13 +13,16 @@ function About() {
         <div className="about_data">
           <Info />
           <p className="about_desc">
-            FullStack Developer specializing in React.js, with expertise in
-            creating dynamic websites and comprehensive platforms that integrate
-            databases, servers, and clients seamlessly. I focus on leveraging
-            modern front-end technologies to deliver high-performance, scalable
-            applications with an emphasis on exceptional user experiences.
-            Passionate about innovation, I am dedicated to providing top-notch
-            software solutions.
+            <span>Full-Stack Developer | React.js & Django</span> I specialize
+            in React.js and Django, developing dynamic and scalable web
+            applications that seamlessly connect databases, servers, and
+            clients. While I have experience in full-stack development, I am
+            more inclined towards frontend development, focusing on building
+            interactive and user-friendly interfaces. I strive to write clean,
+            maintainable code and continuously improve my skills to deliver
+            high-quality software solutions. Passionate about learning and
+            innovation, I enjoy exploring new technologies to enhance
+            performance and user experience.
           </p>
           <a download="CV" className="button button--flex" href={CV}>
             Download CV{" "}
