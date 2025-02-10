@@ -26,8 +26,9 @@ function Work() {
           <img src={Img2} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/E-Book.git">
-                Check My GitHub
+              <a href="https://e-book-store22.netlify.app/">
+                {" "}
+                Explore My E-Book Store
               </a>
             </button>
           </div>
@@ -46,8 +47,8 @@ function Work() {
           <img src={Img4} alt="" />
           <div className="github">
             <button className="button">
-              <a href="https://github.com/seifehab33/E-Learning-Platform">
-                Check My GitHub
+              <a href="https://e-learning-platform-2sk0vnph1-seifehab33s-projects.vercel.app/">
+                Explore the Platform
               </a>
             </button>
           </div>
