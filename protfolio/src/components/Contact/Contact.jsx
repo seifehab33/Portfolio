@@ -61,7 +61,7 @@ function Contact() {
               <span className="contact_card-data">+201500041681</span>
               <div>
                 <a
-                  href="https://wa.me/01500041681"
+                  href="https://wa.me/+201500041681"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact_button"
