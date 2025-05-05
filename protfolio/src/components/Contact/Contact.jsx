@@ -58,7 +58,7 @@ function Contact() {
             <div className="contact_card">
               <BsWhatsapp className="contact_card-icon" />
               <h3 className="contact_card-title">WhatsApp</h3>
-              <span className="contact_card-data">01500041681</span>
+              <span className="contact_card-data">+201500041681</span>
               <div>
                 <a
                   href="https://wa.me/01500041681"
