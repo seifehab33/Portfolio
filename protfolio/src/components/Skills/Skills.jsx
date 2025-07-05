@@ -2,6 +2,7 @@ import React from "react";
 import "./Skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import VersionControl from "./VersionControl";
 function Skills() {
   return (
     <>
@@ -11,6 +12,7 @@ function Skills() {
         <div className="skills_container container grid">
           <Frontend />
           <Backend />
+          <VersionControl />
         </div>
       </section>
     </>

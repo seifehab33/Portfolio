@@ -1,45 +1,45 @@
 import React from "react";
 import { HiCheckBadge } from "react-icons/hi2";
 
-function Backend() {
+function VersionControl() {
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Backend Developer</h3>
+      <h3 className="skills_title">Version Control</h3>
       <div className="skills_box">
         <div className="skills_group">
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">Nest.js</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills_data">
-            <HiCheckBadge />
-            <div>
-              <h3 className="skills_name">TypeScript</h3>
+              <h3 className="skills_name">Git</h3>
               <span className="skills_level">Proficient</span>
             </div>
           </div>
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">MySql</h3>
-              <span className="skills_level">Beginner</span>
+              <h3 className="skills_name">GitHub</h3>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">TypeORM</h3>
+              <h3 className="skills_name">Git Flow</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">JWT</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">Branch Management</h3>
+              <span className="skills_level">Proficient</span>
+            </div>
+          </div>
+          <div className="skills_data">
+            <HiCheckBadge />
+            <div>
+              <h3 className="skills_name">Pull Requests</h3>
+              <span className="skills_level">Proficient</span>
             </div>
           </div>
         </div>
@@ -48,4 +48,4 @@ function Backend() {
   );
 }
 
-export default Backend;
+export default VersionControl;

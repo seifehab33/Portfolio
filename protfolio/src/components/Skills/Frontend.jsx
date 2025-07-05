@@ -11,7 +11,7 @@ function Frontend() {
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">HTML</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Advanced</span>
               </div>
             </div>
             <div className="skills_data">
@@ -25,21 +25,21 @@ function Frontend() {
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">JavaScript</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Proficient</span>
               </div>
             </div>
             <div className="skills_data">
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">TypeScript</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Proficient</span>
               </div>
             </div>
             <div className="skills_data">
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">Tailwind CSS</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Advanced</span>
               </div>
             </div>
           </div>
@@ -48,35 +48,28 @@ function Frontend() {
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">BootStrap</h3>
-                <span className="skills_level">Intermediate</span>
-              </div>
-            </div>
-            <div className="skills_data">
-              <HiCheckBadge />
-              <div>
-                <h3 className="skills_name">Git</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Proficient</span>
               </div>
             </div>
             <div className="skills_data">
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">React.js</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Advanced</span>
               </div>
             </div>
             <div className="skills_data">
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">Next.js</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Proficient</span>
               </div>
             </div>
             <div className="skills_data">
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">Redux Toolkit</h3>
-                <span className="skills_level">Intermediate</span>
+                <span className="skills_level">Proficient</span>
               </div>
             </div>
           </div>

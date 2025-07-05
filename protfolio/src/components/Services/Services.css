@@ -48,6 +48,8 @@
   align-items: center;
   padding: 0 1rem;
   visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 .services_modal-content {
   width: 500px;
@@ -55,6 +57,8 @@
   background-color: var(--container-color);
   padding: 4.5rem 2.5rem 2.5rem;
   border-radius: 1.5rem;
+  transform: scale(0.7);
+  transition: transform 0.3s ease;
 }
 .services_modal-close {
   position: absolute;
@@ -96,6 +100,10 @@
 .active_modal {
   opacity: 1;
   visibility: visible;
+}
+
+.active_modal .services_modal-content {
+  transform: scale(1);
 }
 @media screen and (max-width: 992px) {
   .services_container {
