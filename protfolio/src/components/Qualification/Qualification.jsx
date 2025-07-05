@@ -110,6 +110,21 @@ function Qualification() {
                 </div>
               </div>
             </div>
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title">Software Engineering</h3>
+                <span className="qualification_subtitle">
+                  Egyptian Chinese University
+                </span>
+                <div className="qualification_calender">
+                  <i class="uil uil-calendar-alt"></i> 2024 - 2025
+                </div>
+              </div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
           </div>
           <div
             className={
@@ -120,12 +135,12 @@ function Qualification() {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">UI/UX Designer</h3>
+                <h3 className="qualification_title">Frontend Developer</h3>
                 <span className="qualification_subtitle">
-                  Egyptian Chienese University
+                  Ulemt, Cairo, Egypt
                 </span>
                 <div className="qualification_calender">
-                  <i class="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i class="uil uil-calendar-alt"></i> March 2025 - Present
                 </div>
               </div>
               <div>
@@ -140,20 +155,53 @@ function Qualification() {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Web Developer</h3>
+                <h3 className="qualification_title">Teaching Assistant</h3>
                 <span className="qualification_subtitle">
-                  The Egyptian Stock Exchange
+                  Egyptian Chinese University, Cairo, Egypt
                 </span>
                 <div className="qualification_calender">
-                  <i class="uil uil-calendar-alt"></i> 2023 - 2024
+                  <i class="uil uil-calendar-alt"></i> Oct 2024 - March 2025
                 </div>
               </div>
             </div>
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Development</h3>
-                <span className="qualification_subtitle">Amit Company</span>
+                <h3 className="qualification_title">Full Stack Developer</h3>
+                <span className="qualification_subtitle">
+                  The Egyptian Stock Exchange, Cairo, Egypt
+                </span>
+                <div className="qualification_calender">
+                  <i class="uil uil-calendar-alt"></i> July 2023 - Aug 2023
+                </div>
+              </div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
+            <div className="qualification_data">
+              <div></div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+              <div>
+                <h3 className="qualification_title">Software Engineer</h3>
+                <span className="qualification_subtitle">
+                  Egypt Air, Cairo, Egypt
+                </span>
+                <div className="qualification_calender">
+                  <i class="uil uil-calendar-alt"></i> 2023 - 2024
+                </div>
+              </div>
+            </div>
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title">UI/UX Designer</h3>
+                <span className="qualification_subtitle">
+                  Egypt Air, Cairo, Egypt
+                </span>
                 <div className="qualification_calender">
                   <i class="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
@@ -161,20 +209,6 @@ function Qualification() {
               <div>
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
-              </div>
-            </div>
-            <div className="qualification_data">
-              <div></div>
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Software Development</h3>
-                <span className="qualification_subtitle">The Egyptian Air</span>
-                <div className="qualification_calender">
-                  <i class="uil uil-calendar-alt"></i> 2023 - 2024
-                </div>
               </div>
             </div>
           </div>

@@ -13,8 +13,8 @@ function About() {
         <div className="about_data">
           <Info />
           <p className="about_desc">
-            <span>Full-Stack Developer | React.js & Django</span> I specialize
-            in React.js and Django, developing dynamic and scalable web
+            <span>Full-Stack Developer | React.js & Nest.js</span> I specialize
+            in React.js and Nest.js, developing dynamic and scalable web
             applications that seamlessly connect databases, servers, and
             clients. While I have experience in full-stack development, I am
             more inclined towards frontend development, focusing on building

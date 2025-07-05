@@ -31,6 +31,13 @@ function Frontend() {
             <div className="skills_data">
               <HiCheckBadge />
               <div>
+                <h3 className="skills_name">TypeScript</h3>
+                <span className="skills_level">Intermediate</span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <HiCheckBadge />
+              <div>
                 <h3 className="skills_name">Tailwind CSS</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
@@ -55,6 +62,13 @@ function Frontend() {
               <HiCheckBadge />
               <div>
                 <h3 className="skills_name">React.js</h3>
+                <span className="skills_level">Intermediate</span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <HiCheckBadge />
+              <div>
+                <h3 className="skills_name">Next.js</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>

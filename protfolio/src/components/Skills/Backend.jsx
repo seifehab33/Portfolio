@@ -10,21 +10,35 @@ function Backend() {
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">Django</h3>
+              <h3 className="skills_name">Nest.js</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">Python</h3>
+              <h3 className="skills_name">TypeScript</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
             <HiCheckBadge />
             <div>
-              <h3 className="skills_name">PostgreSQL</h3>
+              <h3 className="skills_name">MySql</h3>
+              <span className="skills_level">Beginner</span>
+            </div>
+          </div>
+          <div className="skills_data">
+            <HiCheckBadge />
+            <div>
+              <h3 className="skills_name">TypeORM</h3>
+              <span className="skills_level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills_data">
+            <HiCheckBadge />
+            <div>
+              <h3 className="skills_name">JWT</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
