@@ -11,6 +11,12 @@
 }
 .footer_title {
   text-align: center;
+  margin-bottom: var(--mb-0-5);
+}
+.footer_tagline {
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
   margin-bottom: var(--mb-2);
 }
 .footer_link:hover {
@@ -29,7 +35,7 @@
 }
 .footer_social-link {
   background-color: var(--title-color);
-  color: var(--white-color);
+  color: var(--container-color);
   font-size: 1.225rem;
   padding: 0.4rem;
   border-radius: 0.5rem;
@@ -40,8 +46,17 @@
 }
 .footer_copy {
   display: block;
-  margin-top: 4.5rem;
   color: var(--title-color);
   text-align: center;
   font-size: var(--smaller-font-size);
+}
+.footer_bottom {
+  margin-top: 3rem;
+}
+.footer_note {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  text-align: center;
+  font-size: var(--small-font-size);
 }

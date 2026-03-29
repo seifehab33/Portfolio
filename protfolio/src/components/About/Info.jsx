@@ -1,23 +1,28 @@
 import React from "react";
-import { BiSupport } from "react-icons/bi";
+import { HiOutlineFolderOpen } from "react-icons/hi";
+
 function Info() {
   return (
     <div className="about_info grid">
       <div className="about_box">
-        <i class="uil uil-award about_icon"></i>
-        <h3 className="about_title">Experience</h3>
-        <span className="about_subtitle">2 Years Working</span>
+        <i className="uil uil-award about_icon"></i>
+        <h3 className="about_title">Current Role</h3>
+        <span className="about_subtitle">Frontend Developer at Ulemt</span>
       </div>
       <div className="about_box ">
-        <i class="uil uil-briefcase-alt about_icon"></i>
-        <h3 className="about_title">Completed</h3>
-        <span className="about_subtitle">6 + Projects</span>
+        <i className="uil uil-briefcase-alt about_icon"></i>
+        <h3 className="about_title">Education</h3>
+        <span className="about_subtitle">
+          B.Sc. Software Engineering
+        </span>
       </div>
 
       <div className="about_box">
-        <BiSupport className="about_icon" />
-        <h3 className="about_title">Support</h3>
-        <span className="about_subtitle">Online 24/7</span>
+        <HiOutlineFolderOpen className="about_icon" />
+        <h3 className="about_title">Projects</h3>
+        <span className="about_subtitle">
+          5 selected frontend and full-stack projects
+        </span>
       </div>
     </div>
   );

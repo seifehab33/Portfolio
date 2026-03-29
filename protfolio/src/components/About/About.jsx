@@ -3,31 +3,30 @@ import "./About.css";
 import aboutimg from "../../assets/Profile.jpeg";
 import Info from "./Info";
 import CV from "../../assets/Seif_Ehab_CV.pdf";
+
 function About() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">Profile summary</span>
       <div className="about__container container grid">
         <img src={aboutimg} className="about__img" alt="" />
         <div className="about_data">
           <Info />
           <p className="about_desc">
-            <span>Full-Stack Developer | React.js & Nest.js</span> I specialize
-            in React.js and Nest.js, developing dynamic and scalable web
-            applications that seamlessly connect databases, servers, and
-            clients. While I have experience in full-stack development, I am
-            more inclined towards frontend development, focusing on building
-            interactive and user-friendly interfaces. I strive to write clean,
-            maintainable code and continuously improve my skills to deliver
-            high-quality software solutions. Passionate about learning and
-            innovation, I enjoy exploring new technologies to enhance
-            performance and user experience.
+            <span>Frontend Developer with Full-Stack Experience</span>{" "}
+            Experienced in React.js and Nest.js, developing scalable and dynamic
+            web applications. I am more inclined towards frontend development,
+            focusing on creating interactive and user-friendly interfaces. I
+            prioritize clean, maintainable code and continuously improve my
+            skills to deliver high-quality solutions. Passionate about learning
+            and exploring new technologies, I aim to enhance performance and
+            user experience.
           </p>
           <a download="CV" className="button button--flex" href={CV}>
             Download CV{" "}
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

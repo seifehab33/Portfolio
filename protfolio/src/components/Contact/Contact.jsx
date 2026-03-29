@@ -1,42 +1,14 @@
 import React from "react";
-import axios from "axios";
 import "./Contact.css";
-import { useState } from "react";
 import {
   BsFillArrowRightCircleFill,
   BsWhatsapp,
   BsMessenger,
 } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
+import CV from "../../assets/Seif_Ehab_CV.pdf";
+
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [project, setProject] = useState("");
-  const handleSendMessage = (e) => {
-    e.preventDefault();
-
-    const formData = {
-      name: name,
-      email: email,
-      project: project,
-    };
-
-    axios
-      .post("http://localhost:8000", formData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-      .then((response) => {
-        console.log(response.data); // Server response
-        setName(""); // Clear input fields
-        setEmail("");
-        setProject("");
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  };
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -90,59 +62,24 @@ function Contact() {
           </div>
         </div>
         <div className="content_contact">
-          <h3 className="contact_title">Write me your project</h3>
-          <form action="" className="contact_form" onSubmit={handleSendMessage}>
-            <div className="contact_form-div">
-              <label htmlFor="" className="contact_form-label">
-                Name
-              </label>
-              <input
-                type="text"
-                placeholder="Insert Your Name"
-                name="name"
-                className="contact_form-input"
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-              />
-            </div>
-            <div className="contact_form-div">
-              <label htmlFor="" className="contact_form-label">
-                Mail
-              </label>
-              <input
-                type="email"
-                placeholder="Insert Your Email"
-                name="email"
-                className="contact_form-input"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-              />
-            </div>
-            <div className="contact_form-div contact_form-area">
-              <label htmlFor="" className="contact_form-label">
-                Project
-              </label>
-              <textarea
-                name="project"
-                className="contact_form-input"
-                id=""
-                placeholder="Insert Your Project Description"
-                cols="30"
-                rows="10"
-                value={project}
-                onChange={(e) => {
-                  setProject(e.target.value);
-                }}
-              ></textarea>
-            </div>
-            <button className="button button--flex" type="submit">
-              Send Message
+          <h3 className="contact_title">Let&apos;s work together</h3>
+          <div className="contact_panel">
+            <p className="contact_panel-text">
+              I am open to frontend opportunities. The fastest way to reach me
+              is by email or WhatsApp.
+            </p>
+            <p className="contact_panel-text">
+              If you want to review my background first, you can also download
+              my CV below.
+            </p>
+            <a
+              download="Seif_Ehab_CV"
+              className="button button--flex"
+              href={CV}
+            >
+              Download CV
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -158,8 +95,8 @@ function Contact() {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-            </button>
-          </form>
+            </a>
+          </div>
         </div>
       </div>
     </section>

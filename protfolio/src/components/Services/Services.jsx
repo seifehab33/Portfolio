@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Services.css";
+
 function Services() {
   const [toggle, setToggle] = useState(0);
   const toggletab = (index) => {
@@ -7,8 +8,8 @@ function Services() {
   };
   return (
     <section className="services section" id="service">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">My Offers</span>
+      <h2 className="section__title">Experience</h2>
+      <span className="section__subtitle">What my CV shows</span>
       <div className="services_container container grid">
         <div className="services content">
           <div>
@@ -40,34 +41,38 @@ function Services() {
               ></i>
               <h3 className="services_modal-title">Frontend Development</h3>
               <p className="services_modal-desc">
-                Modern and responsive web applications with cutting-edge
-                technologies
+                Frontend technologies and UI work directly listed in my CV and
+                used across my projects and roles.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    React.js (Hooks, Context API)
+                    React.js, Next.js, and Vue.js
                   </p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Vue.js</p>
-                </li>
-                <li className="services_modal-service">
-                  <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    HTML5, CSS3, JavaScript (ES6+), TypeScript
+                    HTML5, CSS3, JavaScript, and TypeScript
                   </p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Tailwind CSS, Bootstrap</p>
+                  <p className="services_modal-info">
+                    Tailwind CSS and Bootstrap
+                  </p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    Redux Toolkit, React Query
+                    Responsive interfaces and reusable UI components
+                  </p>
+                </li>
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                    Redux Toolkit, React Query, and Pinia
                   </p>
                 </li>
                 <li className="services_modal-service">
@@ -76,12 +81,15 @@ function Services() {
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Pinia</p>
+                  <p className="services_modal-info">
+                    Project work with modern frontend architecture patterns
+                  </p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    Web Performance (Code Splitting, Lazy Loading)
+                    Jest, React Testing Library, code splitting, and lazy
+                    loading
                   </p>
                 </li>
               </ul>
@@ -116,7 +124,8 @@ function Services() {
               ></i>
               <h3 className="services_modal-title">Backend Development</h3>
               <p className="services_modal-desc">
-                Robust and scalable server-side solutions with modern frameworks
+                Backend tools and integration experience from training,
+                internships, and full-stack projects.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
@@ -129,15 +138,19 @@ function Services() {
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">MySQL, SQLite</p>
+                  <p className="services_modal-info">
+                    MySQL, SQLite, and TypeORM
+                  </p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">TypeORM</p>
+                  <p className="services_modal-info">JWT and Passport.js</p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">JWT, Passport.js</p>
+                  <p className="services_modal-info">
+                    React.js and Django training through Amit
+                  </p>
                 </li>
               </ul>
             </div>
@@ -147,7 +160,7 @@ function Services() {
           <div>
             <i className="uil uil-users-alt services_icon"></i>
             <h3 className="services_title">
-              Personal <br /> Qualities
+              Career <br /> Highlights
             </h3>
           </div>
           <span
@@ -171,32 +184,40 @@ function Services() {
                   toggletab(0);
                 }}
               ></i>
-              <h3 className="services_modal-title">Personal Qualities</h3>
+              <h3 className="services_modal-title">Career Highlights</h3>
               <p className="services_modal-desc">
-                Key attributes that drive success in collaborative development
-                environments
+                A concise view of the professional experience listed in my CV.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Quick learner</p>
-                </li>
-                <li className="services_modal-service">
-                  <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Creativity</p>
-                </li>
-                <li className="services_modal-service">
-                  <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Adaptability</p>
-                </li>
-                <li className="services_modal-service">
-                  <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Leadership</p>
+                  <p className="services_modal-info">
+                    Frontend Developer at Ulemt since March 2025
+                  </p>
                 </li>
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    Collaboration & Team Work
+                    Built responsive UIs with Vue.js and Tailwind CSS
+                  </p>
+                </li>
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                    Contributed to HR management system features
+                  </p>
+                </li>
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                    Teaching Assistant at Egyptian Chinese University
+                  </p>
+                </li>
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                    Full-stack internship experience at the Egyptian Stock
+                    Exchange and Amit Company
                   </p>
                 </li>
               </ul>
