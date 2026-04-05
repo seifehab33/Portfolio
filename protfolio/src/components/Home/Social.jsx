@@ -3,9 +3,6 @@ import React from "react";
 function Social() {
   return (
     <div className="home_social">
-      <a href="#instgram" target="_blank" className="home_social-icon">
-        <i class="uil uil-instagram-alt"></i>
-      </a>
       <a
         href="https://github.com/seifehab33"
         target="_blank"
