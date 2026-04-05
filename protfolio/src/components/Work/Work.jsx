@@ -61,7 +61,7 @@ function Work() {
           <div className="github">
             <button className="button">
               <a
-                href="https://e-learning-platform-2sk0vnph1-seifehab33s-projects.vercel.app/"
+                href="https://e-learning-platform-nine-chi.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
